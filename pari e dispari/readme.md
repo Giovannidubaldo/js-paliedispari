@@ -3,3 +3,10 @@ Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzion
 Sommiamo i due numeri
 Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 Dichiariamo chi ha vinto.
+
+PROBLEMA:
+1 - fare un prompt dove l'utente inserisce pari o dispari;
+2 - fare un prompt dove l'utente inserisce un numero da 1 a 5;
+3 - creare una funzione dove si genera un numero random da 1 a 5;
+4 - creare una seconda funzione dove stabilire se la somma dei due numeri è pari o dispari;
+5 - stampare il vincitore;
