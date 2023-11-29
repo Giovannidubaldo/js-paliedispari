@@ -1,24 +1,29 @@
-// Punto 2
-function wordReverse(a,b){
-    if(a == b){
-        return 'è palindromo'
+// Punto 3
+function wordReverse(word){
+
+    // Punto 2
+    let reverse = word.split('').reverse().join('');
+
+    if(reverse == word){
+        return true
     }
     else{
-        return 'non è palindromo'
+        return false
     }
 }
 
 // Punto 1
 let word_user = prompt('Inserisci una parola');
-console.log(word_user)
-
-// Punto 2
-let reverse = word_user.split('').reverse().join('');
-console.log(reverse)
 
 // RICHIAMO LA FUNZIONE wordReverse
-let result = wordReverse(word_user,reverse);
-console.log(result);
+let result = wordReverse(word_user);
+
+if(result){
+    console.log('è palindromo');
+}
+else{
+    console.log('non è palindromo');
+}
 
 
 
